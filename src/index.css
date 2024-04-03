@@ -1,0 +1,76 @@
+body {
+    background:radial-gradient(circle,rgba(224, 24, 24, 0.684) 25%,rgba(0, 17, 255, 0.802) 90%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    
+}
+ /*********************  for navbar  *****************************/
+#navam{                                                              
+    background-color: #1c1c1f;
+    font-weight:heavy;
+}
+.nav-head{                                                                      /*for navbar*/
+    background: -webkit-linear-gradient(145deg,#e1e1e1, #0d49ca ); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: times new roman;
+    padding: 0.5% ;
+}
+.day{
+    background: -webkit-linear-gradient(145deg, #0d49ca,#e1e1e1 );          /*for navbar*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 4px;
+    font-family: times new roman;
+}
+
+.tag , .text-light{                                                                 /*for the quotes*/
+    background-color: rgb(0, 0, 0) !important;
+    border:1.5px solid grey;
+    border-radius: 8px;
+    padding:2%;
+    font-family: monospace, 'Montserrat', sans-serif;
+    font-size: larger;
+
+}
+
+/***********************  for habits list ***************************/
+.habit-list-head{                                                              
+    text-align: center;
+}
+
+.onhover:hover{
+    color: #208efc;
+    transform: translateY(-4px);
+}
+
+/************************  for habits details weeklist **********************/
+.day-headings{
+    color: #208efc;
+    background-color: #1c1c1f;
+    text-align: center;
+    border:1px solid  #be0404;
+    box-shadow:3px 3px black;
+    cursor: pointer;
+}
+.done{
+    color: rgb(4, 225, 4);
+}
+.fail{
+    color:rgb(235, 14, 14);
+}
+
+
+/************************    style effect for modal effect *************************/
+
+.modal-body {
+    color: #f3f3f3;              
+}
+modal.footer {
+    border-color: #d11717; 
+    color: #fff; 
+  }
+button.bg-primary.mt-3.mobile.btn.btn-primary{      
+    background-color: #232193 !important;
+}
